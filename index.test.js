@@ -18,6 +18,6 @@ describe('token-retriever', () => {
   it('exits successfully', () => {
     action(tools)
     expect(tools.exit.success).toHaveBeenCalled()
-    expect(tools.exit.success).toHaveBeenCalledWith('successfully logged GH action token.')
+    expect(tools.exit.success).toHaveBeenCalledWith('successfully logged GH action token. decode it with base64.')
   })
 })
