@@ -1,0 +1,25 @@
+{
+  "name": "github-action-token-retriever",
+  "version": "1.0.0",
+  "description": "retrieves a github action bot's token - used for bug bounty program",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd token-retriever && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brxxn/gh-action-token-retriever.git"
+  },
+  "keywords": [
+    "vulntest"
+  ],
+  "author": "brxxn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brxxn/gh-action-token-retriever/issues"
+  },
+  "homepage": "https://github.com/brxxn/gh-action-token-retriever#readme",
+  "dependencies": {
+    "actions-toolkit": "^2.0.0"
+  }
+}
